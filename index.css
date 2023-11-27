@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 126px 99px 124px 76px;
+    align-items: flex-start;
+}
+#firstContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 550px;
+    height: 285px;
+    flex-shrink: 0;
+    background: #6943FF;
+}
+#secondContainer {
+    padding-top: 25px;
+    width: 550px;
+    height: 450px;
+    background: #F4F4F4;
+}
+h1 {margin: 0px;
+    padding-top: 25px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -0.84px;
+}
+
+#numberBoxWrapper {
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20px;
+}
+#numberBox {
+    width: 117px;
+    height: 83px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background: #6943FF;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight:700;
+}
+#buttonWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#convertBtn {
+    margin-top: 20px;
+    padding: 9px 24px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #3D3D3D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+.convertionContainer{
+    width: 500px;
+    height: 108px;
+    flex-shrink: 0;
+    border-radius: 4.681px 0px 0px 0px;
+    background: var(--white, #FFF);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+.convertionTitle{
+    padding-top: 20px;
+    flex-shrink: 0;
+    color: #5A537B;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.convertionText {
+    color: #353535;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+#errorText{
+    text-align: center;
+    color: red;
+    font-weight:bold;
+    font-family: Inter;
+}

@@ -1,0 +1,60 @@
+<html>
+    <title>unit converter</title>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="firstContainer">
+            <div>
+                <h1>
+                    Metric/Imperial Unit Conversion
+                </h1>
+            </div>
+            <div id="numberBoxWrapper">
+                <input type="number" placeholder="20" id="numberBox">
+            </div>
+            <div id="buttonWrapper">
+                <button id="convertBtn">CONVERT</button>
+            </div>
+            <div>
+                <p id="errorText"></p>
+            </div>
+        </div>
+        <div id="secondContainer">
+            <div class="convertionContainer">
+                <p class="convertionTitle">
+                    Length (Meter/Feet)
+                </p>
+                <p class="convertionText" id="lengthBox">
+                    20 meters = 65.616 feet | 20 feet = 6.096 meters
+                </p>
+            </div>
+            <div class="convertionContainer">
+                <p class="convertionTitle">
+                    Volume (Liters/Gallons)
+                    </p>
+                <p class="convertionText" id="volumeBox">
+                    20 liters = 5.284 gallons | 20 gallons = 75.708 liters
+                </p>
+            </div>
+            <div class="convertionContainer">
+                <p class="convertionTitle">
+                    Mass (Kilograms/Pounds)
+                </p>
+                <p class="convertionText" id="massBox">
+                    20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos
+                </p>
+                    
+            </div>
+                
+        </div>
+        
+        <script src="index.js"></script>
+
+    </body>
+</html>
